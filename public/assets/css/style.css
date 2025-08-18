@@ -1,0 +1,26 @@
+:root{--primary:#151536;--accent:#df4913;}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;margin:0;color:#111;background:#f8f8fb}
+a{color:var(--accent);text-decoration:none}
+header{background:#fff;position:sticky;top:0;z-index:20;border-bottom:1px solid #eee}
+.nav{max-width:1080px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:14px 16px}
+.nav h1{font-size:20px;color:var(--primary);margin:0}
+.btn{border:0;border-radius:12px;padding:10px 14px;cursor:pointer;background:var(--accent);color:#fff;box-shadow:0 4px 16px rgba(223,73,19,.25)}
+.btn.secondary{background:#fff;color:var(--accent);border:1px solid var(--accent)}
+.grid{max-width:1080px;margin:24px auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;padding:0 16px 48px}
+.card{background:#fff;border:1px solid #eee;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.card .img{height:140px;background:#f1f1f5;display:flex;align-items:center;justify-content:center;font-weight:700;color:#666}
+.card .body{padding:14px}
+.price{font-weight:700}
+footer{padding:48px 16px;text-align:center;color:#666}
+.form{max-width:520px;margin:24px auto;background:#fff;border:1px solid #eee;border-radius:16px;padding:18px}
+.input{display:flex;flex-direction:column;margin-bottom:12px}
+.input label{font-size:14px;margin-bottom:6px;color:#555}
+.input input{padding:10px 12px;border-radius:12px;border:1px solid #ddd}
+.table{max-width:860px;margin:16px auto;background:#fff;border:1px solid #eee;border-radius:16px;overflow:hidden}
+.table table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:12px;border-bottom:1px solid #f0f0f0;text-align:left}
+.badge{display:inline-block;background:#eef;border-radius:10px;padding:3px 8px;font-size:12px;color:#334}
+.alert{max-width:720px;margin:16px auto;padding:12px;border-radius:12px}
+.alert.ok{background:#e9f9ee;color:#155d2f;border:1px solid #c8f0d5}
+.alert.err{background:#fdecec;color:#8a1f11;border:1px solid #f6caca}
