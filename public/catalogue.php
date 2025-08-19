@@ -7,7 +7,9 @@ require_once __DIR__ . '/../templates/header.php';
 <div class="grid">
   <?php foreach($PRODUCTS as $sku=>$p): ?>
     <div class="card">
-      <div class="img"><?= strtoupper(substr($p['sku'],0,2)) ?></div>
+      <!-- Product Image -->
+      <img src="/assets/images/<?php echo $p['image']; ?>" alt="<?php echo htmlspecialchars($p['name']); ?>" width="200">
+      
       <div class="body">
         <h3><?= htmlspecialchars($p['name']) ?></h3>
         <p class="price">₦<?= number_format($p['price']) ?></p>
