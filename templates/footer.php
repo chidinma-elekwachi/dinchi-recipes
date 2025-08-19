@@ -1,3 +1,3 @@
 <footer>
-  <p>© <?= date('Y') ?> DinChi Recipes. Built with PHP + MongoDB. Payments by MarasoftPay.</p>
+  <p>© <?= date('Y') ?> DinChi Recipes. Built by Chidinma Elekwachi</p>
 </footer>

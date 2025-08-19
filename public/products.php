@@ -11,7 +11,7 @@ $PRODUCTS = [
     'sku' => 'okro-soup',
     'name' => 'okro Soup Masterclass (PDF)',
     'price' => 2000,
-    'file' => 'okro-soup.txt',
+    'file' => 'okro-soup.pdf',
     'image' => 'seafood-Okro.jpg',
   ],
   'meat-pie' => [
@@ -25,7 +25,7 @@ $PRODUCTS = [
     'sku' => 'native-rice',
     'name' => 'Nigerian Native Rice (PDF)',
     'price' => 1800,
-    'file' => 'native-rice.txt',
+    'file' => 'native-rice.pdf',
     'image' => 'native-rice.jpg',
   ],
 ];
