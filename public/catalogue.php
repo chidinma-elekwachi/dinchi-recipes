@@ -8,7 +8,6 @@ require_once __DIR__ . '/../templates/header.php';
 <div class="grid">
   <?php foreach($PRODUCTS as $sku=>$p): ?>
     <div class="card">
-      <!-- Product Image -->
       <img src="/assets/images/<?php echo $p['image']; ?>" 
            alt="<?php echo htmlspecialchars($p['name']); ?>" 
            height="200" width="200">

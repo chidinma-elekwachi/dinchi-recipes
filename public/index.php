@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once __DIR__ . '/../templates/header.php';
+
 ?>
 <link rel="stylesheet" href="/assets/css/style.css">
 <div class="grid">
@@ -8,7 +9,8 @@ require_once __DIR__ . '/../templates/header.php';
     <div class="img">Fresh & Easy</div>
     <div class="body">
       <h3>Shop premium recipe PDFs</h3>
-      <p>Learn authentic Nigerian dishes with step-by-step guides.</p>
+      <p>Learn Nigerian dishes with step-by-step guides.</p>
+      <br>
       <a href="/catalogue.php" class="btn">Browse Catalogue</a>
     </div>
   </div>
@@ -23,7 +25,7 @@ require_once __DIR__ . '/../templates/header.php';
     <div class="img">Instant</div>
     <div class="body">
       <h3>Instant delivery</h3>
-      <p>After payment, get a unique email link to download your PDF.</p>
+      <p>After payment, get an email to download your PDF.</p>
     </div>
   </div>
 </div>
